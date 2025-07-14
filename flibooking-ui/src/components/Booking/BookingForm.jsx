@@ -129,7 +129,7 @@ const BookingForm = ({ onwardFlight, returnFlight }) => {
       >
         Confirm Booking
       </button>
-
+      
       {message && (
         <div className="text-green-600 text-sm font-medium pt-4 whitespace-pre-line">
           {message}

@@ -1,6 +1,6 @@
 
-const API_BOOKING = '/booking';
-const API_FLIGHTS = '/flights';
+const API_BOOKING = '/bookings';
+const API_FLIGHTS = '/flights/';
 const API_FLIGHTS_SEARCH = '/flights/search';
 
 export {

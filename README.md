@@ -150,3 +150,15 @@ Booking Form (Frontend + Backend):
 * Phone: Optional, but if provided: 6–10 digits only
 * onwardFlightId: Required
 * returnFlightId: Optional
+
+
+## Application Screenshots
+
+![Alt text](<Screenshot 2025-07-14 at 11.20.38 AM.png>)
+![Alt text](<Screenshot 2025-07-14 at 11.20.53 AM.png>)
+![Alt text](<Screenshot 2025-07-14 at 11.21.02 AM.png>)
+![Alt text](<Screenshot 2025-07-14 at 11.21.25 AM.png>)
+![Alt text](<Screenshot 2025-07-14 at 11.21.34 AM.png>)
+![Alt text](<Screenshot 2025-07-14 at 11.22.56 AM.png>)
+![Alt text](<Screenshot 2025-07-14 at 11.23.17 AM.png>)
+![Alt text](<Screenshot 2025-07-14 at 11.33.37 AM.png>)

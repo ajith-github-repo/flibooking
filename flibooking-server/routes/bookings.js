@@ -9,7 +9,7 @@ router.post(
   [
     body('passenger.name').notEmpty().withMessage('Passenger name is required'),
     body('passenger.email').isEmail().withMessage('Valid email is required'),
-    body('passenger.phone').optional().isLength({ max: 10 , min: 6}).withMessage('Phone number is invalid'),
+    body('passenger.phone').optional({ checkFalsy: true }).isNumeric().withMessage('Phone must be numeric').isLength({ min: 6, max: 10 }).withMessage('Phone must be 6-10 digits'),
     body('onwardFlightId').notEmpty().withMessage('Onward flight ID is required'),
     body('returnFlightId').optional({ checkFalsy: true }).isString()
   ],
