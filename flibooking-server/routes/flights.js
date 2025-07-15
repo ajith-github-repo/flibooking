@@ -29,8 +29,12 @@ router.get(
 );
 
 router.get('/:id', async (req, res) => {
-  const result = await getFlightById(req.params);
-  res.json(result);
+  try {
+    const result = await getFlightById(req.params);
+    res.json(result);
+  } catch (err) {
+    next(err);
+  }
 });
 
 module.exports = router;
